@@ -1,0 +1,39 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "textures": {
+            "up": "asmmod:blocks/hologram_base_up",
+            "down": "asmmod:blocks/hologram_base_down",
+            "side": "asmmod:blocks/hologram_base_side",
+            "particle": "asmmod:blocks/hologram_base_side"
+        },
+        "model": "asmmod:block_text_hologram",
+        "uvlock": false,
+        "transform": "forge:default-block"
+    },
+    "variants": {
+        "normal": [{}],
+        "inventory": [{}],
+        "direction": {
+            "down": {},
+            "up": {
+                "x": 180
+            },
+            "north": {
+                "x": 270
+            },
+            "south": {
+                "x": 90
+            },
+            "west": {
+                "x": 90,
+                "y": 90
+            },
+            "east": {
+                "x": 90,
+                "y": 270
+            }
+
+        }
+    }
+}
